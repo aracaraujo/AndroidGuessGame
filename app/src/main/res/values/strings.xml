@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">My Application</string>
+    <string name="type_what_place_you_want_to_see_the_weather">Type what place you want to see the weather</string>
+    <string name="search">Search</string>
+    <string name="place">Place</string>
+    <string name="textfield">Textfield</string>
+    <string name="type_what_place_you_want_to_see">Type what place you want to see</string>
+    <string name="type_here">Type here...</string>
+    <string name="try_to_guess_what_is_the_secret_number_the_range_is_from_1_to_100">Try to guess what is the secret number. The range is from 1 to 100.</string>
+    <string name="your_guess_is">Your guess is...</string>
+    <string name="reset" />
+    <string name="Reset">Reset</string>
+    <string name="try_to_guess_what_is_the_secret_number_the_range_is_from_1_to_20" />
+    <string name="Try_to_guess_what_is_the_secret_number_the_range_is_from_1_to_20">Try_to_guess_what_is_the_secret_number_the_range_is_from_1_to_20</string>
+    <string name="try_to_guess_what_is_the_secret_number_tthe_range_is_from_0_to_20">Try to guess what is the secret number. \tThe range is from 0 to 20</string>
+    <string name="Guess">Guess</string>
+</resources>
