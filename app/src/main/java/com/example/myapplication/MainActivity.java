@@ -14,10 +14,11 @@ import java.util.Random;
 public class MainActivity extends AppCompatActivity implements View.OnClickListener{
 
     EditText userInput;
-    TextView message;
+    TextView message, attempts;
     Button subButton, resetButton;
 
     int randomNumber = generatingNumber();
+    int counter;
 
 
 
@@ -28,6 +29,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
 
         userInput = findViewById(R.id.userInput);
         message = findViewById(R.id.txtGuess);
+        attempts = findViewById(R.id.txtAttempt);
         subButton = findViewById(R.id.subButton);
         resetButton = findViewById(R.id.resetButton);
 
@@ -44,16 +46,24 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
                 int convertInput = Integer.parseInt(input);
                 if (convertInput > randomNumber) {
                     message.setText("Too high");
+                    counter += 1;
+                    attempts.setText("Attempts: " + counter);
                 } else if (convertInput < randomNumber) {
                     message.setText("Too low");
+                    counter += 1;
+                    attempts.setText("Attempts: " + counter);
                 } else {
-                    message.setText("Congratulations!!! The correct number was: " + randomNumber);
+                    counter += 1;
+                    message.setText("Congratulations!!!\nThe correct number was: " + randomNumber);
+                    attempts.setText("Attempts: " + counter);
                 }
                 break;
             case R.id.resetButton:
                 randomNumber = generatingNumber();
+                counter = 0;
                 message.setText("");
                 userInput.setText("");
+                attempts.setText("");
                 userInput.requestFocus();
                 break;
             default:
