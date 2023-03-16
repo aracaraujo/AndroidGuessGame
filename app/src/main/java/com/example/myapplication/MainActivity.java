@@ -47,13 +47,16 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
                 if (convertInput > randomNumber) {
                     message.setText("Too high");
                     counter += 1;
+                    userInput.setText("");
                     attempts.setText("Attempts: " + counter);
                 } else if (convertInput < randomNumber) {
                     message.setText("Too low");
                     counter += 1;
+                    userInput.setText("");
                     attempts.setText("Attempts: " + counter);
                 } else {
                     counter += 1;
+                    userInput.setText("");
                     message.setText("Congratulations!!!\nThe correct number was: " + randomNumber);
                     attempts.setText("Attempts: " + counter);
                 }

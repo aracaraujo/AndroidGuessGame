@@ -8,18 +8,18 @@ if the guess was too low or too high.
 
 The link below is a demo video of me running the app.
 
-[Software Demo Video](http://youtube.link.goes.here)
+[Android Guessing Game Demo Video](https://www.youtube.com/watch?v=kDkEYEOxZWA)
 
 # Development Environment
 
 I used Android Studio to develop this app and the simulator that I used to run the app was the
 Pixel 2.
 
-This app was written in Java.
+The backend logic was written in Java.
 
 # Useful Websites
 
 The list bellow are some useful links that helped me to write this app.
 
-* [Web Site Name](http://url.link.goes.here)
-* [Web Site Name](http://url.link.goes.here)
+* [Android Development for Beginners - Full Course](https://www.youtube.com/watch?v=fis26HvvDII&t=22352s)
+* [Android Studio Official Website](https://developer.android.com/studio/intro)
